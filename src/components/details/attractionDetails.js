@@ -16,7 +16,7 @@ class AttractionDetails extends Component {
       url: 'https://tripadvisor1.p.rapidapi.com/attractions/get-details?currency=USD&lang=en_US&location_id='+this.props.match.params.id,
       headers: {
         "x-rapidapi-host": "tripadvisor1.p.rapidapi.com",
-		    "x-rapidapi-key": "f7d5a62125mshba2044c5f2bb8a3p1739b3jsne2be466bf87a"
+        "x-rapidapi-key": "f7d5a62125mshba2044c5f2bb8a3p1739b3jsne2be466bf87a"
       }
     }).then(response => {
       this.setState({

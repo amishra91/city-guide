@@ -138,7 +138,7 @@ class RestaurantDetails extends Component {
 
             <div className="dish-section">
               <h3 className="reviews-heading">Dishes</h3>
-                <ol className="review-container">
+                <ol className="review-container dishes">
                   {dishes}
                 </ol>
             </div>

@@ -238,3 +238,11 @@ p.hotel-class {
   border-radius: 4px;
   box-shadow: 0 0 4px 0 rgba(0,0,0,0.4);
 }
+.dishes {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.dishes > .user-review {
+  margin: 4px 12px 0;
+}
