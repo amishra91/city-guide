@@ -129,8 +129,11 @@ class App extends Component {
 
 
     return (
+
+      
       
         <div className="main-container">
+          
           <Router>
             <Route path="/attractions/:id" exact component={AttractionDetails} />
           </Router>
@@ -144,8 +147,8 @@ class App extends Component {
           <Router>
             <Route path="/" exact>
               <div className="input-wrapper">
-                <div className="form-group">
-                  <input type="text" placeholder="Enter your Source City"/>
+                <div className="logo-wrapper">
+                  <img src="https://itilite.com/View/assets/images/home/images/itilite-logo-1.png" />
                 </div>
                 <div className="form-group">
                   <input type="text" onChange={this.getUserInput} placeholder="Which city do you want to go to?"/>
